@@ -1,0 +1,15 @@
+app:
+  name: rhug-angular-poi-gateway-app
+  namespace: rhug-angular
+  cluster: .apps.cluster-gqd95.gqd95.sandbox1540.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/ultraJeffOrg/rhug-angular-gateway
+  org: ultraJeffOrg
+  name: rhug-angular-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rhug-angular/poi-gateway-app
+  tag: latest
